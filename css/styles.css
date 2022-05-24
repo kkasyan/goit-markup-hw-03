@@ -1,4 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /*----------------------------COMMON-----------------------------------*/
+
 :root {
   --accent-color: #2196f3;
   --main-text-color: #212121;
@@ -24,6 +49,8 @@ li {
 /*----------------------------HEADER-----------------------------------*/
 
 .header-main {
+  padding-top: 24px;
+  padding-bottom: 25px;
   text-decoration: none;
   background-color: #ececec;
 }
@@ -38,6 +65,11 @@ li {
   line-height: 1.19;
 }
 
+.logo-paddings {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .logo-accent {
   color: var(--accent-color);
 }
@@ -47,6 +79,9 @@ li {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.header-links {
 }
 
 .header-item-link {
@@ -68,6 +103,9 @@ li {
   text-decoration: none;
 }
 
+.contacts-container > a {
+}
+
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--accent-color);
@@ -80,11 +118,13 @@ li {
 /*---------------------------- INDEX HTML MAIN-----------------------------------*/
 /*Hero*/
 .section {
+  padding-bottom: 47px;
   background-color: var(--hero-bcg-color);
   color: var(--second-text-color);
 }
 
 .hero-header {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -92,6 +132,13 @@ li {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--second-text-color);
+}
+
+.hero-container {
+  padding-top: 200px;
+  padding-right: 452px;
+  padding-bottom: 280px;
+  padding-left: 452px;
 }
 
 .section-btn {
@@ -129,11 +176,14 @@ li {
 }
 
 .qualities-list {
+  padding-top: 47px;
+  padding-bottom: 47px;
   letter-spacing: 0.03em;
   font-size: 14px;
 }
 
 .qualities-list-item {
+  padding-bottom: 10px;
   line-height: 1.17;
   font-size: 14px;
   text-transform: uppercase;
@@ -145,6 +195,15 @@ li {
 }
 
 /*-----------------------------WHAT WE DO----------------------*/
+.what-we-do-container {
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
+
+.what-we-do-header {
+  padding-bottom: 50px;
+}
+
 .section-header {
   font-size: 36px;
   line-height: 1.17;
@@ -154,7 +213,13 @@ li {
 }
 
 /*---------OUR TEAM----------------------------*/
+.team-header {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 .team-section {
+  padding-top: 47px;
+  padding-bottom: 47px;
   background-color: var(--btn-backgroud-color);
   letter-spacing: 0.03em;
 }
@@ -163,7 +228,11 @@ li {
   background-color: var(--second-text-color);
 }
 
+.cards {
+  padding-top: 30px;
+}
 .team-name {
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -171,6 +240,7 @@ li {
 }
 
 .team-section-detail {
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -179,11 +249,21 @@ li {
 
 /*----------------------------FOOTER-----------------------------------*/
 .footer {
+  padding-top: 47px;
   background-color: var(--hero-bcg-color);
   letter-spacing: 0.03em;
 }
 
+.footer-container {
+  padding-top: 60px;
+  padding-right: 1154px;
+  padding-bottom: 60px;
+  padding-left: 215px;
+  width: 1600px;
+  height: 252px;
+}
 .address {
+  padding-top: 20px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -211,10 +291,20 @@ li {
 }
 
 /*---------------------------PORTFOLIO-------------------------------------------------*/
+.header-container {
+  padding-bottom: 47px;
+}
+
 .header-portf {
+  padding-top: 24px;
+  padding-bottom: 25px;
   background-color: var(--second-text-color);
 }
 
+.buttons-container {
+  padding-top: 47px;
+  padding-bottom: 50px;
+}
 .portfolio-btn {
   font-family: inherit;
   background-color: var(--btn-backgroud-color);
@@ -234,11 +324,19 @@ li {
   color: var(--second-text-color);
 }
 
+.portfolio-cards {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
 .section-item {
+  padding-bottom: 47px;
   background-color: var(--second-text-color);
 }
 
 .section-item-header {
+  padding-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
