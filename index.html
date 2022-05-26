@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-     <div class="container">
     <header class="header-main">
+      <div class="container">
       <a class="logo" href="index.html" lang="en">
         <span class="logo-accent">Web</span>Studio
       </a>
@@ -29,17 +29,18 @@
           <li class="header-item"><a class="header-item-link" href="">Контакты</a></li>
         </u>
       </nav>
+      <div class="contacts">
       <a class="header-contacts" href="mailto:info@devstudio.com">
         info@devstudio.com
       </a>
       <a class="header-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
       </div>
+      </div>
     </header>
     <main>
-      <div class="container">
       <!--Герой-->
       <section class="section">
-        <div class="hero-container">
+        <div class="container hero-container">
         <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="section-btn">Заказать услугу</button>
         </div>
@@ -48,28 +49,28 @@
       <!-- Особенности -->
       <h2 class="visually-hidden">Особенности</h2>
       <ul class="qualities-list">
-        <li>
+        <li class="list-item">
           <h3 class="qualities-list-item">Внимание к деталям</h3>
           <p class="text">
             Идейные соображения, а также начало повседневной работы по
             формированию позиции.
           </p>
         </li>
-        <li>
+        <li class="list-item"> 
           <h3 class="qualities-list-item">Пунктуальность</h3>
           <p class="text">
             Задача организации, в особенности же рамки и место обучения кадров
             влечет за собой.
           </p>
         </li>
-        <li>
+        <li class="list-item">
           <h3 class="qualities-list-item">Планирование</h3>
           <p class="text">
             Равным образом консультация с широким активом в значительной степени
             обуславливает.
           </p>
         </li>
-        <li>
+        <li class="list-item">
           <h3 class="qualities-list-item">Современные технологии</h3>
           <p class="text">
             Значимость этих проблем настолько очевидна, что реализация плановых
@@ -82,22 +83,22 @@
         <div class="container what-we-do-container">
         <!--Чем мы занимаемся-->
         <h2 class="section-header what-we-do-header">Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="image-list">
             <img
               src="./images/box1.jpg"
               alt="Человек набирает код на клавиатуре"
               width="370"
             />
           </li>
-          <li>
+          <li class="image-list">
             <img
               src="./images/box2.jpg"
               alt="Человек держит в руках планшет и выбирает на ноутбуке дизайн приложения"
               width="370"
             />
           </li>
-          <li>
+          <li class="image-list">
             <img
               src="./images/box3.jpg"
               alt="Человек держит в руках планшет и рассматривает цветовую палитру"
@@ -108,10 +109,10 @@
         </div>
       </section>
       <section class="team-section">
-        <div class="container">
+        <div class="container team-container">
         <!--Наша команда-->
         <h2 class="section-header team-header">Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li class="team-section-item">
             <img src="./images/img1.jpg" alt="Игорь Демьяненко" width="270" />
             <div class="cards">
@@ -143,7 +144,6 @@
         </ul>
         </div>
       </section>
-      </div>
     </main>
     <!--Подвал-->
     <footer class="footer">
@@ -152,7 +152,6 @@
         <span class="logo-accent">Web</span><span class="logo-part">Studio</span>
       </a>
       <address class="address">
-         <div class="container">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
         <a class="footer-contacts" href="mailto:info@example.com">
           info@example.com
@@ -160,10 +159,8 @@
         <a class="footer-contacts" href="tel:+380991111111">
           +38 099 111 11 11
         </a>
-        </div>
       </address>
       </div>
     </footer>
-    </div>
   </body>
 </html>
