@@ -193,7 +193,7 @@ li {
 
 .qualities {
   padding-top: 94px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 
 .qualities-list {
@@ -255,13 +255,12 @@ li {
 
 /*---------OUR TEAM----------------------------*/
 .team-header {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
 .team-section {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--btn-backgroud-color);
   letter-spacing: 0.03em;
 }
