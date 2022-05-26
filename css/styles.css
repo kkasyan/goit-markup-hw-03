@@ -49,14 +49,13 @@ li {
 .header-main {
   text-decoration: none;
   background-color: var(--second-text-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-main .container {
   display: flex;
   align-items: center;
-
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .logo {
@@ -191,13 +190,20 @@ li {
   margin: -1px;
 }
 
+.qualities {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
 .qualities-list {
   display: flex;
   margin: 0;
-  padding-top: 94px;
-  padding-bottom: 47px;
   letter-spacing: 0.03em;
   font-size: 14px;
+}
+
+.list-item {
+  max-width: 270px;
 }
 
 .qualities-list-item {
@@ -217,9 +223,12 @@ li {
 }
 
 /*-----------------------------WHAT WE DO----------------------*/
-.what-we-do-container {
+.what-we-do {
   padding-top: 47px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
+}
+
+.what-we-do-container {
 }
 
 .what-we-do-header {
@@ -249,11 +258,9 @@ li {
   margin-bottom: 50px;
 }
 
-.team-container {
+.team-section {
   padding-top: 47px;
   padding-bottom: 47px;
-}
-.team-section {
   background-color: var(--btn-backgroud-color);
   letter-spacing: 0.03em;
 }
@@ -269,6 +276,7 @@ li {
 
 .cards {
   padding-top: 30px;
+  padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -282,7 +290,6 @@ li {
 }
 
 .team-section-detail {
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -293,9 +300,6 @@ li {
 .footer {
   background-color: var(--hero-bcg-color);
   letter-spacing: 0.03em;
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -331,8 +335,10 @@ li {
 }
 
 /*---------------------------PORTFOLIO-------------------------------------------------*/
-.header-portf .container {
+.header-portf {
   border-bottom: 1px solid #ececec;
+}
+.header-portf .container {
   display: flex;
   align-items: center;
   padding-top: 24px;
@@ -340,6 +346,10 @@ li {
   background-color: var(--second-text-color);
 }
 
+.buttons {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .button-list:not(:last-child) {
   margin-right: 8px;
 }
@@ -348,14 +358,17 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 94px;
+
   margin-bottom: 50px;
 }
 .buttons-container {
-  padding-bottom: 94px;
 }
 
 .portfolio-btn {
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
   border-radius: 4px;
   font-family: inherit;
   background-color: var(--btn-backgroud-color);
