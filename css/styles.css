@@ -59,6 +59,7 @@ li {
 }
 
 .logo {
+  display: flex;
   margin-right: 93px;
   font-family: "Raleway";
   color: var(--logo-color);
