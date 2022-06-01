@@ -123,7 +123,7 @@ li {
   color: var(--accent-color);
 }
 
-.header-contacts .envelope::before {
+/* .header-contacts .envelope::before {
   content: "";
   position: absolute;
   background-image: url(../images/icons.svg#icon-smartphone);
@@ -132,8 +132,8 @@ li {
   background-size: contain;
 }
 
-.header-contacts .phone::before {
-}
+. .header-contacts .phone::before {
+} */
 .current {
   color: var(--accent-color);
 }
